@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Soundboard RPG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div>
+    <h1>🎧 Soundboard RPG</h1>
+    <p>Suba MP3 em <code>audio/</code> que eles aparecem automaticamente</p>
+  </div>
+
+  <div class="controls">
+    <button id="stopAllBtn">⏹ Stop</button>
+    <label>
+      Volume
+      <input id="volume" type="range" min="0" max="1" step="0.01" value="0.85">
+    </label>
+    <label>
+      <input id="loop" type="checkbox" checked>
+      Loop
+    </label>
+  </div>
+</header>
+
+<main>
+  <div id="status">Carregando áudios...</div>
+  <div id="playlist"></div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

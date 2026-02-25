@@ -1,0 +1,60 @@
+body {
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0f1220;
+  color:white;
+}
+
+header {
+  padding:15px;
+  background:#1c2038;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+.controls {
+  display:flex;
+  gap:15px;
+  align-items:center;
+}
+
+button {
+  padding:8px 12px;
+  background:#2b3055;
+  border:none;
+  color:white;
+  cursor:pointer;
+  border-radius:8px;
+}
+
+button:hover {
+  background:#3b4180;
+}
+
+#playlist {
+  padding:15px;
+}
+
+.section {
+  margin-bottom:20px;
+}
+
+.section h2 {
+  margin-bottom:10px;
+  border-bottom:1px solid #333;
+  padding-bottom:5px;
+}
+
+.track {
+  display:block;
+  margin-bottom:6px;
+  padding:8px;
+  width:100%;
+  text-align:left;
+}
+
+.nowplaying {
+  background:#5a63d8 !important;
+}
